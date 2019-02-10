@@ -1,8 +1,4 @@
-var rect={
-    perimeter: (a,b) =>(2*(a+b)),
-    area: (x,y) => (x*y)
-};
-
+var rect=require('./areas')
 function answer(l,b) {
     console.log("perimeter for rectangle with l="+l+"and b="+b);
     if(l<=0 || b<=0){
